@@ -57,6 +57,73 @@ body {
   border: none;
   cursor: pointer;
 }
+/* about section  */
+.about {
+    height: 100vh;
+  }
+  .about-container {
+    height: 100vh;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-text {
+    width: 450px;
+  }
+  .profile {
+    width: 450px;
+  }
+  .section-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .about-text > li {
+    list-style: none;
+    margin-bottom: 5px;
+  }
+  
+  /* plan section  */
+  
+  .plan-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 130px;
+  }
+  .plan-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .plan-img {
+    width: 60px;
+  }
+  /* background imh section  */
+  .background-img {
+    width: 1140px;
+    height: 300px;
+    border-radius: 8px;
+    margin: auto;
+    margin-bottom: 130px;
+    display: flex;
+    background-image: linear-gradient(
+        90deg,
+        #f15b22 0%,
+        rgba(241, 91, 34, 0) 100%
+      ),
+      url(./images/watch.png);
+  }
+  .background-info {
+    margin: 30px 65px;
+  }
+  .background-heading {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
 /* footer section  */
 .footer {
   background-color: #151414;
