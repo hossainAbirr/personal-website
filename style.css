@@ -1,6 +1,15 @@
 /* common shared styles  */
 body {
   font-family: Work Sans;
+  margin: 0;
+  padding: 0;
+}
+.secondary-button {
+  border-radius: 5px;
+  background: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
 }
 
 /* header section  */
@@ -48,4 +57,27 @@ body {
   border: none;
   cursor: pointer;
 }
+/* footer section  */
+.footer {
+  background-color: #151414;
+  color: #f8f8f8;
+  height: 80vh;
+}
+.column-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
 
+  height: 80vh;
+}
+.column-text {
+    width: 40%;
+}
+.column > input {
+  background: transparent;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
